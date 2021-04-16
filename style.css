@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    background: #f0f2f5;
+    background: #000;
     font-family: 'Poppins', sans-serif;
 }
 .sr-only{
@@ -90,7 +90,7 @@ button:hover {
 
 /* Header =============== */
 header {
-    background: #2D4A22;
+    background: #457e31;
     padding: 2rem 0 10rem;
     text-align: center;
 }
@@ -110,11 +110,12 @@ header {
 
 /* Cards =============== */
 .card {
-    background: white;
+    background: #181818;
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
     margin-bottom: 2rem;
-    color: var(--dark-blue);
+    color: white;
+    font-weight: bold;
 }
 .card h3 {
     font-weight: normal;
@@ -143,7 +144,8 @@ header {
 #data-table {
     width: 100%;
     border-spacing: 0 0.5rem;
-    color: #969cd3;
+    color: #ffffff;
+    background: #181818;
 }
 
 table thead tr th:first-child,
@@ -157,8 +159,8 @@ table tbody tr td:last-child {
 }
 
 table thead th {
-    background: white;
-    font-weight: normal;
+    background: #181818;
+    font-weight: bold;
     padding: 1rem 2rem;
     text-align: left;
 }
@@ -171,12 +173,12 @@ table tbody tr:hover {
     opacity: 1;
 }
 table tbody td {
-    background: white;
+    background: #181818;
     padding: 1rem 2rem;
 }
 
 td.description {
-    color: var(--dark-blue);
+    color: white;
 }
 
 td.income {
@@ -186,7 +188,8 @@ td.expense {
     color: #e92929;
 }
 td.date {
-    color: var(--dark-blue)
+    color: white;
+    font: italic;
 }
 
 /* Modal ================ */
@@ -252,7 +255,7 @@ input {
 footer {
     text-align: center;
     padding: 4rem 0 2rem;
-    color: var(--dark-blue);
+    color: white;
     opacity: 0.6;
 }
 /* Responsive ============= */
