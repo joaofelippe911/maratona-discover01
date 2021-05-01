@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    background: #000;
+    background: #24252A;
     font-family: 'Poppins', sans-serif;
 }
 .sr-only{
@@ -37,8 +37,8 @@ body {
 h2 {
     margin-top: 3.2rem;
     margin-bottom: 0.8rem;
-    color: var(--dark-blue);
-    font-weight: normal;
+    color: white;
+    font-weight: bold;
 
 }
 /* Links & Buttons */
@@ -65,7 +65,7 @@ button:hover {
 }
 
 .button.cancel {
-    color: #e92929;
+    color: #ff0000;
     border: 2px #e92929 solid;
     border-radius: 0.25rem;
     height: 50px;
@@ -110,9 +110,10 @@ header {
 
 /* Cards =============== */
 .card {
-    background: #181818;
+    background: #252525;
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
+    border: solid rgb(53, 53, 53) 0.1rem;
     margin-bottom: 2rem;
     color: white;
     font-weight: bold;
@@ -133,6 +134,7 @@ header {
 .card.total {
     background: var(--green);
     color: white;
+    border: solid #4fb929 0.1rem;
 }
 
 /* Table =============== */
@@ -145,7 +147,7 @@ header {
     width: 100%;
     border-spacing: 0 0.5rem;
     color: #ffffff;
-    background: #181818;
+    background: #222222;
 }
 
 table thead tr th:first-child,
@@ -159,7 +161,7 @@ table tbody tr td:last-child {
 }
 
 table thead th {
-    background: #181818;
+    background: #222222;
     font-weight: bold;
     padding: 1rem 2rem;
     text-align: left;
@@ -173,7 +175,7 @@ table tbody tr:hover {
     opacity: 1;
 }
 table tbody td {
-    background: #181818;
+    background: #222222;
     padding: 1rem 2rem;
 }
 
@@ -214,7 +216,7 @@ td.date {
 }
 
 .modal {
-    background: #f0f2f5;
+    background: #252525;
     padding: 2.4rem;
     position:relative;
     z-index: 1;
@@ -239,6 +241,7 @@ input {
 }
 
 .input-group .help {
+    color: white;
     opacity: 0.4;
 }
 .input-group.actions {
